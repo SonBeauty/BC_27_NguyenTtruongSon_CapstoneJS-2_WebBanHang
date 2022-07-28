@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lavender;
+  min-height: 100vh;
+}
+.nav-responsive {
+  display: flex;
+  z-index: 1;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(128, 180, 248);
+  padding: 0.8rem 0rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.access a {
+  color: rgb(73, 73, 70);
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.select-branch {
+  position: relative;
+  font-family: Arial;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  background: #80f8e7;
+  font-weight: bold;
+}
+.select-branch option{
+    font-weight: bold;
+}
+.cart{
+  right: 60px;
+  position: absolute;
+  top: 87px;
+}
